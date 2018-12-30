@@ -1,0 +1,57 @@
+.block {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+
+}
+
+.over-b {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    /* overflow: hidden; */
+    margin-top: 80px;
+    background-color: yellow;
+}
+
+.block:hover {
+    overflow: visible;
+    margin-top: 0;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-image: url(breaking_news_img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border: 1px solid gray;
+}
+
+.a-href {
+    width: 200px;
+    height: 100px;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.info {
+    display: none;
+}
